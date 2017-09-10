@@ -14,7 +14,7 @@ def CheckLanguageSetting(models):
     global language_setting
     if models.byName('基本型(含反向的卡片)') is not None:
         language_setting['Back'] = '背面'
-        language_setting['Front'] = '反面'
+        language_setting['Front'] = '正面'
         language_setting['Type'] = '基本型(含反向的卡片)'
     else:
         language_setting['Back'] = 'Back'
